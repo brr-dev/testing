@@ -1,13 +1,13 @@
-# [TITLE] 
+# Jest Testing Helpers
+
+Some general-purpose Jest testing helpers.
 
 ## Installation
 
 ```shell
 # npm
-npm install [PACKAGE]
+npm install --dev @brr-dev/testing
 
 # yarn
-yarn add [PACKAGE]
+yarn add --dev @brr-dev/testing
 ```
-
-## Usage
