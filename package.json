@@ -2,7 +2,7 @@
   "name": "@brr-dev/testing",
   "version": "0.1.1",
   "description": "Some general-purpose Jest testing helpers.",
-  "main": "./index.ts",
+  "main": "./src/index.ts",
   "repository": "https://github.com/brr-dev/testing",
   "author": "Brandon Ramirez <brandon@brr.dev>",
   "license": "MIT",

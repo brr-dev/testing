@@ -5,7 +5,6 @@
     "lib": ["DOM"],
     "declaration": true,
     "declarationMap": false,
-    "outDir": "./dist",
     "downlevelIteration": true,
     "strict": true,
     "alwaysStrict": true,
