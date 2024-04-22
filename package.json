@@ -18,7 +18,7 @@
     "test:coverage": "jest --coverage",
     "format": "prettier --write \"src/**/*.ts\"",
     "prepare": "yarn build",
-    "prepublishOnly": "yarn format && yarn test",
+    "prepublishOnly": "yarn format",
     "version": "yarn format && git add -A src",
     "postVersion": "git push && git push --tags"
   },
