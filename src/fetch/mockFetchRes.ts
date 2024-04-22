@@ -29,7 +29,7 @@ export function mockFetchRes({
     spy,
 }: MockFetchOptions = {}): jest.SpyInstance {
     if (!spy) {
-        spy = spyOnFetch();
+        spy = spyOnFetch({ restoreAfterAll: false, clearBeforeEach: false });
     }
 
     const res = _makeFetchRes(_inputRes);
