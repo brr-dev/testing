@@ -2,13 +2,25 @@
   "name": "@brr-dev/testing",
   "version": "0.1.2",
   "description": "Some general-purpose Jest testing helpers.",
-  "main": "./src/index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["./dist"],
   "repository": "https://github.com/brr-dev/testing",
   "author": "Brandon Ramirez <brandon@brr.dev>",
   "license": "MIT",
   "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "scripts": {
-    "format": "prettier --write"
+    "build": "rm -rf dist && tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "prepare": "yarn build",
+    "prepublishOnly": "yarn format && yarn test",
+    "version": "yarn format && git add -A src",
+    "postVersion": "git push && git push --tags"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
