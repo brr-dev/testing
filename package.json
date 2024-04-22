@@ -1,6 +1,6 @@
 {
   "name": "@brr-dev/testing",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Some general-purpose Jest testing helpers.",
   "main": "./src/index.ts",
   "repository": "https://github.com/brr-dev/testing",
