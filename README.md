@@ -1,3 +1,3 @@
-# @brr-dev/typescript-package-template
+# @brr-dev/testing
 
-A template repo for bundling TypeScript packages.
+A collection of general-purpose Jest testing helpers.
